@@ -1,0 +1,66 @@
+
+body{
+  background-image: url('Corona.jpg');
+  position: relative;
+ }
+
+ h1 {
+     text-align: center;
+ }
+
+ h1,
+ h2,
+ h3 {
+    font-family: "Sofia", sans-serif;
+    font-size: 35px;
+    text-shadow: 3px 3px 3px #3ce000c2;
+     padding: 23px 0;
+ }
+
+h3{
+     padding:10px 0;
+}
+
+nav {
+     display: flex;
+     padding: 0 23px;
+     background-color: rgba(0, 0, 0, 0.313);
+     }
+     
+     .item {
+     padding: 3px 8px;
+     list-style: none;
+     }
+     
+     .item a {
+          color: rgb(255, 255, 255);
+          text-decoration: none;
+          padding: 18px 10px;
+          display: block;
+          font-size: 20px;
+          font-weight: bold;
+          font-family: 'Baloo Thambi 2', cursive;
+      }
+
+      .container {
+          padding: 46px;
+          margin: 12px auto;
+          max-width: 69%;
+          background-color: rgb(255, 255, 255);
+          border-radius: 12px; 
+      }
+
+      .item a:hover {
+          background: rgb(182, 202, 30);
+          color: black;
+          border-radius: 5px;
+      }
+
+      form{
+        background-color: rgb(0, 255, 179);
+        border-radius: 3px;
+        margin-top: 2px;
+        box-sizing: border-box;
+      }
+
+      
